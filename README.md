@@ -181,7 +181,7 @@ Under Section 3: Virtual Hosts add a new virtual host:
 
 When adding a new virtual host it is recommended that gzip compression is added to the host entry>
 
-	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
 
 Support for older browsers may now be obsolete but if required the following properties should be added:
 
@@ -200,7 +200,7 @@ Combined with the virtual hosts entry it shoudl look like this:
 	        Order allow,deny
 	        Allow from all
 	    </Directory>
-		AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript
+		AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
 		BrowserMatch ^Mozilla/4 gzip-only-text/html
 		BrowserMatch ^Mozilla/4\.0[678] no-gzip
 		BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
