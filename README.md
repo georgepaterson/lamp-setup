@@ -206,7 +206,7 @@ Combined with the virtual hosts entry it shoudl look like this:
 		BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 	</VirtualHost>
 
-### Section 6: Set up complete
+## Section 6: Set up complete
 
 Set up should now be complete all that's left is to restart Apache so it picks up the updated setting.
 
