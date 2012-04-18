@@ -85,7 +85,7 @@ With MySQL installed we need to create the MySQL root user:
 	
 To load the MySQL PHP module we need to edit php.ini:
 	
-	sudo nano php.ini
+	sudo nano /etc/php.ini
 	
 In php.ini change: 	
 	
