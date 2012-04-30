@@ -179,7 +179,7 @@ Under Section 3: Virtual Hosts add a new virtual host:
 
 ### Gzip
 
-When adding a new virtual host it is recommended that gzip compression is added to the host entry>
+When adding a new virtual host it is recommended that gzip compression is used. This can be as simple as adding AddOutputFilterByType, although mod_filter will give greater granularity.
 
 	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
 
