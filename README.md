@@ -189,7 +189,7 @@ Support for older browsers may now be obsolete but if required the following pro
 	BrowserMatch ^Mozilla/4\.0[678] no-gzip
 	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 	
-Combined with the virtual hosts entry it shoudl look like this:
+Combined with the virtual hosts entry it should look like this:
 
 	<VirtualHost *:80>
 	    ServerName your-site.com
@@ -200,10 +200,7 @@ Combined with the virtual hosts entry it shoudl look like this:
 	        Order allow,deny
 	        Allow from all
 	    </Directory>
-		AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
-		BrowserMatch ^Mozilla/4 gzip-only-text/html
-		BrowserMatch ^Mozilla/4\.0[678] no-gzip
-		BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+		AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript
 	</VirtualHost>
 
 ## Section 6: Set up complete
