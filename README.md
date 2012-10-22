@@ -181,9 +181,9 @@ Under Section 3: Virtual Hosts add a new virtual host:
 
 When adding a new virtual host it is recommended that gzip compression is used. This can be as simple as adding AddOutputFilterByType, although mod_filter will give greater granularity.
 
-	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript
 
-Support for older browsers may now be obsolete but if required the following properties should be added:
+Support for older browsers may now be obsolete but if required the following properties can be added:
 
 	BrowserMatch ^Mozilla/4 gzip-only-text/html
 	BrowserMatch ^Mozilla/4\.0[678] no-gzip
