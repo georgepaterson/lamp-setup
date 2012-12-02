@@ -1,6 +1,6 @@
 # Linux Apache MySQL PHP setup
 
-The LAMP stack is a very popular setup for a web server, it is relatively easy to create, leveraging open source software. Python or Perl may be used to replace PHP depending on specific requirements alternatively the AMP stack can be installed on alternative operating systems.
+The LAMP stack is a very popular setup for a web server, it is relatively easy to create, leveraging open source software. Python or Perl may be used to replace PHP depending on specific requirements additionally the AMP stack can be installed on alternative operating systems.
 
 For this particular setup we will initially reference Red Hat Enterprise Linux / CentOS Linux version 5.x or above.
 
